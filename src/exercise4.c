@@ -7,7 +7,7 @@ int main(int argc,char** argv){
     double X = atof(argv[0]);
     int K = atoi(argv[1]);
     for (i = 0;i<9;i++){
-        scanf("%f",&array[i]);
+        scanf("%lf",&array[i]);
     }
     for(i=0;i<10;i++){
         temp1 = array[K];
@@ -23,6 +23,6 @@ int main(int argc,char** argv){
         }
     }
     for (i=0;i<10;i++){
-        printf("%.3f\n",array[i]);
+        printf("%.3lf\n",array[i]);
     }
 }
