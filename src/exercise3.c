@@ -12,6 +12,9 @@ int main(int argc,char** argv){
         if (i>10){
             i = i-10;
         }
+        if(i=-1){
+            i=10
+        }
         printf("%.3f\ ",array[i]);
     }
 }
