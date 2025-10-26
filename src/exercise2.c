@@ -7,6 +7,6 @@ int main(int argc, char** argv){
         scanf("%f",&array[9-i]);
     }
     for(i=0;i<9;i++){
-        printf("%.f",array[i]);
+        printf("%.3f\ ",array[i]);
     }
 }
