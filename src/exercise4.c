@@ -4,9 +4,9 @@ int main(int argc,char** argv){
     double array[10];
     int i;
     double temp1;
-    double X = atof(argv[0]);
-    int K = atoi(argv[1]);
-    for (i = 0;i<9;i++){
+    double X = atof(argv[1]);
+    int K = atoi(argv[2]);
+    for (i = 0;i<10;i++){
         scanf("%lf",&array[i]);
     }
     for(i=0;i<10;i++){
