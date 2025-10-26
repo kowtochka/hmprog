@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(int argc,char** argv){
-    float array[10];
+    int array[10];
     int i;
-    float temp1;
-    float X = atof(argv[1]);
-    int K = atoi(argv[0]);
+    int temp1;
+    int X = atof(argv[0]);
+    int K = atoi(argv[1]);
     for (i = 0;i<9;i++){
-        scanf("%f",&array[i]);
+        scanf("%d",&array[i]);
     }
     for(i=0;i<10;i++){
         temp1 = array[K];
@@ -23,6 +23,6 @@ int main(int argc,char** argv){
         }
     }
     for (i=0;i<10;i++){
-        printf("%.3f\n",array[i]);
+        printf("%.d\n",array[i]);
     }
 }
