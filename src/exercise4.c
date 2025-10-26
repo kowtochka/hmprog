@@ -9,7 +9,7 @@ int main(int argc,char** argv){
     for (i = 0;i<9;i++){
         scanf("%f",&array[i]);
     }
-    for(i=0;i<99;i++){
+    for(i=0;i<10;i++){
         temp1 = array[K];
         array[9] = 0;
         array[K] = X;
