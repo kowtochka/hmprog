@@ -1,6 +1,28 @@
 #include <stdio.h>
-
-int main(int argc, char** argv) {
-    printf("Hello World!");
-    return 0;
+#include <stdlib.h>
+int main(int argc,char** argv){
+    float array[10];
+    int i;
+    float temp1;
+    float X = atof(argv[0]);
+    int K = atoi(argv[1]);
+    for (i = 0;i<9;i++){
+        scanf("%f",&array[i]);
+    }
+    for(i=0;i<99;i++){
+        temp1 = array[K];
+        array[9] = 0;
+        array[K] = X;
+        while(9-i>K){
+            if(9-i == K+1){
+                array[9-i] = temp1;
+            }
+            if(9-i!=K+1){
+                array[9-i] = array[9-1-i];
+           }
+        }
+    }
+    for (i=0;i<10;i++){
+        printf("%.3f\n",array[i]);
+    }
 }
