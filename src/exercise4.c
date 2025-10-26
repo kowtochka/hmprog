@@ -4,8 +4,8 @@ int main(int argc,char** argv){
     float array[10];
     int i;
     float temp1;
-    float X = atof(argv[0]);
-    int K = atoi(argv[1]);
+    float X = atof(argv[1]);
+    int K = atoi(argv[0]);
     for (i = 0;i<9;i++){
         scanf("%f",&array[i]);
     }
