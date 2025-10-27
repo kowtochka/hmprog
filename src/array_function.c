@@ -39,7 +39,7 @@ void get_min_and_max_from_int_array(int* src, size_t size, int* min, int* max) {
         }
 
     }
-    *max = tm;
-    *min = tl;
+    max=tm;
+    min=tl;
 }
 
