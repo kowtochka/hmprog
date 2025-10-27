@@ -1,12 +1,12 @@
 #include "../include/array_function.h"
 
 void join_int_arrays(int *src1, size_t size_src1, int *src2, size_t size_src2, int *dest) {
-    for(int i=0;i<size_src1+size_src2;i++){
-        if (i<size_src1){
+    for(int i=0;i<atoi(size_src1)+atoi(size_src2);i++){
+        if (i<atoi(size_src1)){
         dest[i]=src1[i];
             }
         else{
-        dest[i]=src2[size_src1-i];
+        dest[i]=src2[atoi(size_src1)-i];
         }
 }
     }
