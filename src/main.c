@@ -7,7 +7,7 @@ size_t size_src1 = 4;
 int src1[4] ={1,2,3,4};
 size_t size_src2 = 4;
 int src2[4] ={5,6,7,8}; 
-join_int_arrays(src1,size_src1,src2,size_src2,dest);
+join_and_sort_int_arrays(src1,size_src1,src2,size_src2,dest);
 for (int i = 0;i<8;i++){
 printf("%d",dest[i]);
 }
