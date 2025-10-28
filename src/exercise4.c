@@ -12,7 +12,7 @@ for(int i=9;i>K;i--){
 }
 array[K] = X;
  for (i=0;i<10;i++){
-        printf("%.lf\n",array[i]);
+        printf("%lf\n",array[i]);
     }
     return 0;
 }
